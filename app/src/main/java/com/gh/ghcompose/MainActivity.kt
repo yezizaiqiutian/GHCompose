@@ -29,7 +29,9 @@ class MainActivity : ComponentActivity() {
                         startDestination = "login"
                     ) {
                         composable("login") {
-                            LoginScreen(navController = navController)
+//                            LoginScreen(navController = navController)
+//                            GHLoginScreen(navController = navController)
+                            LoginScreenWithSideEffects()
                         }
                         composable("home") {
                             HomeScreen()

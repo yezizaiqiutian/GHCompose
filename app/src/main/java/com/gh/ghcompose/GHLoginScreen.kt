@@ -279,7 +279,7 @@ fun GHLoginFormCard(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    text = "没有账户?",
+                    text = "没有账户???",
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
                 TextButton(
