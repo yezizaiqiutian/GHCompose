@@ -33,7 +33,8 @@ class MainActivity : ComponentActivity() {
 //                            LoginScreen(navController = navController)
 //                            GHLoginScreen(navController = navController)
 //                            LoginScreenWithSideEffects()
-                            CountdownTimer(10) { Log.d("ggggg", "完成-----") }
+//                            CountdownTimer(10) { Log.d("ggggg", "完成-----") }
+                            CountDownTimerParent()
                         }
                         composable("home") {
                             HomeScreen()
